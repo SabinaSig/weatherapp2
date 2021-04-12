@@ -6,7 +6,8 @@ export default function Footer() {
     <div>
       <hr />
       <p className="buildPage">
-        This page was built by 👩🏼‍💻
+        <span>
+        This page was built by </span>
         <a
           href="https://www.linkedin.com/in/sabina-sigmundov%C3%A1-431324194/"
           target="_"
@@ -14,7 +15,7 @@ export default function Footer() {
           Sabina Sigmundová
         </a>
         <br />
-        <a href="https://github.com/SabinaSig/My-weather-app" target="_">
+        <a href="https://github.com/SabinaSig/weatherapp2" target="_">
           Open-source code
         </a>
       </p>
