@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import CurrentCity from "./currentCity";
+import Forecast from './Forecast';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1> Weather App </h1>
       </header>
     <CurrentCity />
+    <Forecast />
     </div>
   );
 }
