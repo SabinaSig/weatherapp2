@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import CurrentCity from "./currentCity";
-import Forecast from './Forecast';
 import Footer from './Footer';
 import Date from "./Date";
+import Search from "./Search";
 
 function App() {
   return (
@@ -12,8 +11,8 @@ function App() {
         <h1> Weather App </h1>
       </header>
     <Date />
+    <Search />
     <CurrentCity />
-    <Forecast />
     <Footer />
     </div>
   );

@@ -1,13 +1,11 @@
-import React from "react";
+
 import "./App.js";
 
-export default function Forecast() {
+export default function Search() {
   return (
     <div>
-      <div id="forecast"> </div>
-
-      <form id="city-form">
-        
+    <div>
+      <form id="city-form" >
         <input
           type="text"
           id="city-input"
@@ -20,6 +18,7 @@ export default function Forecast() {
           Current location
         </button>
       </form>
+    </div>
     </div>
   );
 }
