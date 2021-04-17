@@ -29,6 +29,7 @@ h1 {
   border: 1px solid #dbdcde;
   padding: 20px 10px;
   border-radius: 10px;
+  box-shadow: 9px 9px 5px #aec8d3;
   background: rgba(255, 255, 255, 0.849);
 }
 
@@ -68,7 +69,7 @@ ul {
 }
 
 a {
-  color: white;
+  color: #aec8d3;
 }
 
 a:hover {
@@ -163,7 +164,7 @@ a:hover {
 .buildPage {
   text-align: center;
   font-size: small;
-  color: whitesmoke;
+  color: black;
   font-family: "Courier New", Courier, monospace;
 }
 
