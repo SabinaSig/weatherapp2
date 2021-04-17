@@ -3,6 +3,7 @@ import CurrentCity from "./currentCity";
 import Footer from './Footer';
 import Date from "./Date";
 import Search from "./Search";
+import Forecast from "./Forecast";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Date />
     <Search />
     <CurrentCity />
+    <Forecast />
     <Footer />
     </div>
   );
