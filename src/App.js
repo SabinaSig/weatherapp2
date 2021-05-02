@@ -14,7 +14,7 @@ function App() {
       </header>
     <Date />
     <Search />
-    <CurrentCity />
+    <CurrentCity defaultCity="Berlin" />
     <Forecast />
     <Footer />
     </div>
