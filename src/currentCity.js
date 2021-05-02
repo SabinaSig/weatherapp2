@@ -1,7 +1,17 @@
-
+import React, { useState } from "react";
 import "./App.js";
+import axios from "axios";
 
 export default function CurrentCity() {
+  const [ready, setReady] = useState(false);
+  const [temperature, setTemperature] = usestate(null);
+  function handleResponse(response) {
+    console.log(response.data);
+    setTemperature(response.data.main.temp);
+    setReady(true);
+  }
+
+  if (ready) {
   return (
     <div class="row">
       <div class="col-12" id="city">
@@ -54,4 +64,14 @@ export default function CurrentCity() {
       </div>
     </div>
   );
+  } else {
+    const apiKey = "572e5efa40a6e4f550d450618c4881bf";
+    let city = "London";
+    let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    axios.get(apiUrl).then(handleResponse);
+
+  return (
+    <p>Loading ...</p>
+  );
+  }
 }
