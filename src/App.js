@@ -2,7 +2,7 @@ import './App.css';
 import Weather from "./Weather";
 import Footer from './Footer';
 import Forecast from "./Forecast";
-import axios from "axios";
+
 
 function App() {
   return (
