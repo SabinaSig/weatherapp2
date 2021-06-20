@@ -31,13 +31,7 @@ export default function WeatherInfo (props) {
             <br></br>
             <WeatherTemperature celsius={props.data.temperature} />
             </p>
-            <p id="change">
-              {" "}
-              Change to
-              <button id="farenheit"> °F </button> |
-              <button id="celsius"> °C </button>
-            </p>
-
+            
             <p className="currentState">
               <ul>
                 <li id="pressure"> {props.data.precipitation} </li>
