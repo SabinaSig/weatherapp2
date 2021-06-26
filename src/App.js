@@ -1,7 +1,7 @@
 import './App.css';
 import Weather from "./Weather";
 import Footer from './Footer';
-import Forecast from "./Forecast";
+
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <h1> Weather App </h1>
       </header>
     <Weather defaultCity="Berlin" />
-    <Forecast />
+
     <Footer />
     </div>
    
