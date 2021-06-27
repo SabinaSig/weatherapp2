@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Footer from './Footer';
+import FormattedDate from './FormattedDate';
 
 ReactDOM.render(
   <React.StrictMode>
