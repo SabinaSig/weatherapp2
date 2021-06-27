@@ -58,6 +58,8 @@ export default function Weather (props){
       </form>
       <WeatherInfo data={weatherData} />
       <WeatherForecast coordinates={weatherData.coordinates} />
+      <br></br>
+      <div className="note"> *** Please note, the forecast is shown in Celsius (°C)</div>
     </div>
   );
   } else {

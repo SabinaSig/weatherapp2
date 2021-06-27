@@ -180,3 +180,8 @@ a:hover {
   border-radius: 10px;
   margin: 0px 10px;
 }
+
+.note {
+  font-size: small;
+  opacity: 0.8;
+}
