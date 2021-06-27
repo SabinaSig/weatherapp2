@@ -4,7 +4,6 @@ import "./App";
 export default function Footer() {
   return (
     <div>
-      <hr />
       <p className="buildPage">
         <span>
         This page was built by </span>
