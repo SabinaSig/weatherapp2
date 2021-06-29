@@ -10,6 +10,7 @@
   padding: 1px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.666);
+  border: 1px solid #1c2e24;
 }
 
 .App-logo {
@@ -36,7 +37,7 @@ h1 {
   text-align: center;
   font-size: 23px;
   margin: 20px;
-  color: rgb(255, 255, 255);
+  color: #1c2e24;
   text-shadow:
     /* White glow */ 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
 }
@@ -107,7 +108,7 @@ a:hover {
   margin: 0;
 }
 .currentTemperature {
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Caveat", cursive;
 }
 #degree {
@@ -161,7 +162,7 @@ a:hover {
 
 .WeatherForecast-day {
   font-family: "Caveat", cursive;
-  font-size: x-large;
+  font-size: 25px;
   margin-bottom: 10px;
   margin-top: 0px;
   padding: 0px 25px;
@@ -189,7 +190,7 @@ a:hover {
 }
 
 .WeatherForecast-temperatures {
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Caveat", cursive;
   font-weight: bold;
 }
