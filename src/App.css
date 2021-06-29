@@ -68,7 +68,9 @@ ul {
 }
 
 a {
-  color: #ccc8eb;
+  color: rgb(255, 255, 255);
+  text-shadow:
+    /* White glow */ 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
 }
 
 a:hover {
@@ -101,12 +103,11 @@ a:hover {
 }
 
 .currentCity {
-  font-size: 250%;
+  font-size: 40px;
   margin: 0;
-  font-family: "Caveat", cursive;
 }
 .currentTemperature {
-  font-size: 180%;
+  font-size: 40px;
   font-family: "Caveat", cursive;
 }
 #degree {
@@ -136,7 +137,7 @@ a:hover {
 
 .buildPage {
   text-align: center;
-  font-size: small;
+  font-size: 15px;
   color: rgb(255, 255, 255);
   font-family: "Caveat", cursive;
 }
@@ -177,4 +178,18 @@ a:hover {
 .date {
   font-family: "Caveat", cursive;
   font-size: x-large;
+}
+
+.text-capitalize {
+  font-size: 15px;
+}
+
+.unit {
+  font-size: 20px;
+}
+
+.WeatherForecast-temperatures {
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
 }

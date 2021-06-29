@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Footer from './Footer';
-import FormattedDate from './FormattedDate';
 
 ReactDOM.render(
   <React.StrictMode>
+    <h1> Sabinas Weather App</h1>
     <App />
     <Footer />
   </React.StrictMode>,
