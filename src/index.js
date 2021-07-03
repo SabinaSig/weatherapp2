@@ -7,6 +7,7 @@ import Footer from './Footer';
 
 ReactDOM.render(
   <React.StrictMode>
+    <h1> <span className="myName"> Sabina's  </span>   Weather App </h1>
     <App />
     <Footer />
   </React.StrictMode>,
